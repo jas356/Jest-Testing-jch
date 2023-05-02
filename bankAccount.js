@@ -5,8 +5,8 @@ Usage:
 let myAccount = new Account(100) 
 
 -- Methods available-- 
-.deposit(amount) // will return true with a valid deposit
-.withdrawal(amount) // will return true if you're withdrawing only what your account has
+myAccount.deposit(amount) // will return true with a valid deposit
+myAccount.withdrawal(amount) // will return true if you're withdrawing only what your account has
 
 */
 
